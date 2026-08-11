@@ -2,7 +2,7 @@
   "info" : {
     "name" : "banking mcp",
     "schema" : "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id" : "f70a8959-488e-45cd-abfc-f4b81ffebcf6"
+    "_postman_id" : "97343714-2616-4138-8144-310b58df1a76"
   },
   "item" : [ {
     "name" : "initialize",
