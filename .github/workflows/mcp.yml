@@ -84,6 +84,12 @@ jobs:
     permissions:
       contents: read
       id-token: write
+      # Explicit `permissions:` blocks set every unlisted scope to `none`,
+      # not "inherit default" — actions/upload-artifact needs `actions:
+      # write` under that scope, or it fails silently (masked by
+      # continue-on-error below) and the deployment-url artifact never
+      # gets created, even though the step reports "success".
+      actions: write
 
     outputs:
       service_url:  ${{ steps.svcurl.outputs.service_url }}
