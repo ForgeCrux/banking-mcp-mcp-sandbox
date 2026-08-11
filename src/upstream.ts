@@ -1,4 +1,4 @@
-const BASE_URL = process.env.UPSTREAM_BASE_URL || "http://localhost:8080";
+const BASE_URL = process.env.UPSTREAM_BASE_URL || "https://forgestudio.probestack.io/contractTesting/mock/mock-1e8b7d4e";
 const AUTH_TYPE: string = "none";
 const AUTH_HEADER = process.env.UPSTREAM_AUTH_HEADER || "Authorization";
 
