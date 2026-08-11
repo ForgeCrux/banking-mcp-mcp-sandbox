@@ -48,7 +48,7 @@ concurrency:
 env:
   PROJECT_ID:                    probestack-prod
   REGION:                        us-central1
-  SERVICE_NAME:                  banking-mcp
+  SERVICE_NAME:                  banking-mcp-sandbox
   REPOSITORY:                    probestack-prod-apps
   SERVICE_ACCOUNT_EMAIL:         github-actions-forgecrux@probestack-prod.iam.gserviceaccount.com
   WORKLOAD_IDENTITY_PROVIDER:    projects/861433193200/locations/global/workloadIdentityPools/github-pool/providers/github-provider
