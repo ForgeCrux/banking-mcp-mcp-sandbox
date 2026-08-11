@@ -2,7 +2,7 @@
   "info" : {
     "name" : "banking mcp",
     "schema" : "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id" : "a73f9fb2-3311-41f7-ade5-8a58bf4493f4"
+    "_postman_id" : "810a81b6-4c20-4915-90ba-0afafcb67ffd"
   },
   "item" : [ {
     "name" : "initialize",
@@ -12,8 +12,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -28,8 +28,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -44,8 +44,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -60,8 +60,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -76,8 +76,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -92,8 +92,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -108,8 +108,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -124,8 +124,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
@@ -140,8 +140,8 @@
         "raw" : "http://localhost:3500/mcp"
       },
       "header" : [ {
-        "key" : "Content-Type",
-        "value" : "application/json"
+        "value" : "application/json",
+        "key" : "Content-Type"
       } ],
       "body" : {
         "mode" : "raw",
