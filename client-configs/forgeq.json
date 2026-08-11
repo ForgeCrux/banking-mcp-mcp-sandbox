@@ -1,0 +1,15 @@
+{
+  "name" : "banking-mcp",
+  "transport" : {
+    "kind" : "streamable-http",
+    "baseUrl" : null
+  },
+  "auth" : {
+    "kind" : "none",
+    "headerName" : null,
+    "generatedToken" : null,
+    "oauth" : null,
+    "customMiddleware" : null
+  },
+  "command" : "npx banking-mcp"
+}
