@@ -2,7 +2,7 @@
   "info" : {
     "name" : "banking mcp",
     "schema" : "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id" : "f96c5985-2219-4b41-bb55-b47c419556d2"
+    "_postman_id" : "353b156d-712d-48c7-82dd-fe754237236e"
   },
   "item" : [ {
     "name" : "initialize",
@@ -16,8 +16,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{}}"
       }
     }
   }, {
@@ -32,8 +32,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/call\",\"params\":{\"name\":\"post_customers\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/call\",\"params\":{\"name\":\"post_customers\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -48,8 +48,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"tools/call\",\"params\":{\"name\":\"get_customers_customer_id\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"tools/call\",\"params\":{\"name\":\"get_customers_customer_id\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -64,8 +64,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"tools/call\",\"params\":{\"name\":\"post_accounts\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"tools/call\",\"params\":{\"name\":\"post_accounts\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -80,8 +80,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"tools/call\",\"params\":{\"name\":\"get_accounts_account_id\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"tools/call\",\"params\":{\"name\":\"get_accounts_account_id\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -96,8 +96,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"tools/call\",\"params\":{\"name\":\"get_accounts_account_id_balance\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"tools/call\",\"params\":{\"name\":\"get_accounts_account_id_balance\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -112,8 +112,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"tools/call\",\"params\":{\"name\":\"post_transactions_transfer\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"tools/call\",\"params\":{\"name\":\"post_transactions_transfer\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -128,8 +128,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"tools/call\",\"params\":{\"name\":\"get_transactions_transaction_id\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"tools/call\",\"params\":{\"name\":\"get_transactions_transaction_id\",\"arguments\":{}}}"
       }
     }
   }, {
@@ -144,8 +144,8 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":9,\"method\":\"tools/call\",\"params\":{\"name\":\"post_auth_login\",\"arguments\":{}}}",
-        "mode" : "raw"
+        "mode" : "raw",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":9,\"method\":\"tools/call\",\"params\":{\"name\":\"post_auth_login\",\"arguments\":{}}}"
       }
     }
   } ]
