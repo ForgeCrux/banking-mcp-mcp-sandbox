@@ -1,8 +1,8 @@
 {
   "mcpServers" : {
     "banking-mcp" : {
-      "args" : [ ],
-      "command" : "npx banking-mcp"
+      "command" : "npx banking-mcp",
+      "args" : [ ]
     }
   }
 }
