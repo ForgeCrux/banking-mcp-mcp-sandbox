@@ -1,0 +1,101 @@
+{
+  "slug" : "banking-mcp",
+  "name" : "banking mcp",
+  "description" : "MCP server generated from OpenAPI spec",
+  "version" : "v2",
+  "category" : null,
+  "transport" : "STREAMABLE_HTTP",
+  "serverUrl" : "",
+  "requiresAuth" : false,
+  "upstreamBaseUrl" : "",
+  "capabilities" : {
+    "tools" : true,
+    "resources" : true,
+    "prompts" : true
+  },
+  "tools" : [ {
+    "name" : "post_customers",
+    "description" : "Create Customer",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : { },
+      "required" : [ ]
+    }
+  }, {
+    "name" : "get_customers_customer_id",
+    "description" : "Get Customer Details",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : {
+        "customerId" : {
+          "description" : "",
+          "type" : "string"
+        }
+      },
+      "required" : [ "customerId" ]
+    }
+  }, {
+    "name" : "post_accounts",
+    "description" : "Create Account",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : { },
+      "required" : [ ]
+    }
+  }, {
+    "name" : "get_accounts_account_id",
+    "description" : "Get Account Details",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : {
+        "accountId" : {
+          "description" : "",
+          "type" : "string"
+        }
+      },
+      "required" : [ "accountId" ]
+    }
+  }, {
+    "name" : "get_accounts_account_id_balance",
+    "description" : "Get Account Balance",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : {
+        "accountId" : {
+          "description" : "",
+          "type" : "string"
+        }
+      },
+      "required" : [ "accountId" ]
+    }
+  }, {
+    "name" : "post_transactions_transfer",
+    "description" : "Transfer Funds",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : { },
+      "required" : [ ]
+    }
+  }, {
+    "name" : "get_transactions_transaction_id",
+    "description" : "Get Transaction Details",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : {
+        "transactionId" : {
+          "description" : "",
+          "type" : "string"
+        }
+      },
+      "required" : [ "transactionId" ]
+    }
+  }, {
+    "name" : "post_auth_login",
+    "description" : "User Login",
+    "inputSchema" : {
+      "type" : "object",
+      "properties" : { },
+      "required" : [ ]
+    }
+  } ]
+}
