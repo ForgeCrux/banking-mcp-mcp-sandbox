@@ -7,7 +7,7 @@
   "transport" : "STREAMABLE_HTTP",
   "serverUrl" : "",
   "requiresAuth" : false,
-  "upstreamBaseUrl" : "https://forgestudio.probestack.io/contractTesting/mock/mock-1e8b7d4e",
+  "upstreamBaseUrl" : "",
   "capabilities" : {
     "tools" : true,
     "resources" : true,
