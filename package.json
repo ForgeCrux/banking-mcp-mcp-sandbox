@@ -1,6 +1,6 @@
 {
   "name" : "banking-mcp",
-  "version" : "v2",
+  "version" : "v1.0.1",
   "description" : "MCP server generated from OpenAPI spec",
   "type" : "module",
   "main" : "dist/index.js",
