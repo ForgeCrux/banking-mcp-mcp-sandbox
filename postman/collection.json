@@ -2,7 +2,7 @@
   "info" : {
     "name" : "banking mcp",
     "schema" : "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id" : "e0db3f4d-378f-417e-98b1-f95af738469d"
+    "_postman_id" : "a438eda1-64d5-42be-9141-4872da254393"
   },
   "item" : [ {
     "name" : "initialize",
@@ -53,7 +53,7 @@
       }
     }
   }, {
-    "name" : "tools/call · post_accounts",
+    "name" : "tools/call · post_account",
     "request" : {
       "method" : "POST",
       "url" : {
@@ -64,12 +64,12 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"tools/call\",\"params\":{\"name\":\"post_accounts\",\"arguments\":{}}}",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"tools/call\",\"params\":{\"name\":\"post_account\",\"arguments\":{}}}",
         "mode" : "raw"
       }
     }
   }, {
-    "name" : "tools/call · get_accounts_account_id",
+    "name" : "tools/call · get_account_account_id",
     "request" : {
       "method" : "POST",
       "url" : {
@@ -80,12 +80,12 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"tools/call\",\"params\":{\"name\":\"get_accounts_account_id\",\"arguments\":{}}}",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"tools/call\",\"params\":{\"name\":\"get_account_account_id\",\"arguments\":{}}}",
         "mode" : "raw"
       }
     }
   }, {
-    "name" : "tools/call · get_accounts_account_id_balance",
+    "name" : "tools/call · get_account_account_id_balance",
     "request" : {
       "method" : "POST",
       "url" : {
@@ -96,7 +96,7 @@
         "key" : "Content-Type"
       } ],
       "body" : {
-        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"tools/call\",\"params\":{\"name\":\"get_accounts_account_id_balance\",\"arguments\":{}}}",
+        "raw" : "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"tools/call\",\"params\":{\"name\":\"get_account_account_id_balance\",\"arguments\":{}}}",
         "mode" : "raw"
       }
     }
