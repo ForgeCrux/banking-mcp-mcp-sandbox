@@ -1,9 +1,9 @@
 import { describe, it, expect } from "vitest";
 import { post_customersHandler } from "../src/tools/post_customers";
 import { get_customers_customer_idHandler } from "../src/tools/get_customers_customer_id";
-import { post_accountsHandler } from "../src/tools/post_accounts";
-import { get_accounts_account_idHandler } from "../src/tools/get_accounts_account_id";
-import { get_accounts_account_id_balanceHandler } from "../src/tools/get_accounts_account_id_balance";
+import { post_accountHandler } from "../src/tools/post_account";
+import { get_account_account_idHandler } from "../src/tools/get_account_account_id";
+import { get_account_account_id_balanceHandler } from "../src/tools/get_account_account_id_balance";
 import { post_transactions_transferHandler } from "../src/tools/post_transactions_transfer";
 import { get_transactions_transaction_idHandler } from "../src/tools/get_transactions_transaction_id";
 import { post_auth_loginHandler } from "../src/tools/post_auth_login";
@@ -26,27 +26,27 @@ describe("get_customers_customer_id", () => {
   });
 });
 
-describe("post_accounts", () => {
+describe("post_account", () => {
   it("returns a content array", async () => {
-    const result = await post_accountsHandler({} as any);
+    const result = await post_accountHandler({} as any);
     expect(result).toBeTruthy();
     expect(result.content).toBeDefined();
     expect(Array.isArray(result.content)).toBe(true);
   });
 });
 
-describe("get_accounts_account_id", () => {
+describe("get_account_account_id", () => {
   it("returns a content array", async () => {
-    const result = await get_accounts_account_idHandler({} as any);
+    const result = await get_account_account_idHandler({} as any);
     expect(result).toBeTruthy();
     expect(result.content).toBeDefined();
     expect(Array.isArray(result.content)).toBe(true);
   });
 });
 
-describe("get_accounts_account_id_balance", () => {
+describe("get_account_account_id_balance", () => {
   it("returns a content array", async () => {
-    const result = await get_accounts_account_id_balanceHandler({} as any);
+    const result = await get_account_account_id_balanceHandler({} as any);
     expect(result).toBeTruthy();
     expect(result.content).toBeDefined();
     expect(Array.isArray(result.content)).toBe(true);
