@@ -2,7 +2,7 @@
   "slug" : "banking-mcp",
   "name" : "banking mcp",
   "description" : "MCP server generated from OpenAPI spec",
-  "version" : "v2",
+  "version" : "v1.0.1",
   "category" : null,
   "transport" : "STREAMABLE_HTTP",
   "serverUrl" : "",
@@ -35,7 +35,7 @@
       "required" : [ "customerId" ]
     }
   }, {
-    "name" : "post_accounts",
+    "name" : "post_account",
     "description" : "Create Account",
     "inputSchema" : {
       "type" : "object",
@@ -43,7 +43,7 @@
       "required" : [ ]
     }
   }, {
-    "name" : "get_accounts_account_id",
+    "name" : "get_account_account_id",
     "description" : "Get Account Details",
     "inputSchema" : {
       "type" : "object",
@@ -56,7 +56,7 @@
       "required" : [ "accountId" ]
     }
   }, {
-    "name" : "get_accounts_account_id_balance",
+    "name" : "get_account_account_id_balance",
     "description" : "Get Account Balance",
     "inputSchema" : {
       "type" : "object",
