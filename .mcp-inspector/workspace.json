@@ -1,7 +1,7 @@
 {
   "server" : {
     "transport" : "streamable-http",
-    "name" : "banking-mcp",
-    "command" : "npx banking-mcp"
+    "command" : "npx banking-mcp",
+    "name" : "banking-mcp"
   }
 }
